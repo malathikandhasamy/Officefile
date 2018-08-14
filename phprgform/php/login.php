@@ -22,7 +22,7 @@ if (!$result) {
 if ($result->num_rows > 0) {
     // output data of each row
     while($row = $result->fetch_assoc()) {
-        header("location:http://localhost/phprgform/php/select.html");
+        header("location:http://localhost/phprgform/php/select.php");
     }
 }
 else {

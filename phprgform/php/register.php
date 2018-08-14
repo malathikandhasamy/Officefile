@@ -48,7 +48,7 @@
 	    		<label for="country">Country</label>
 	    		<select class="form-control" id="country" name="country">
 	    			<option></option>
-			      <option>Afghanistan.</option>
+			      <option>Afghanistan</option>
 			      <option>Canada</option>
 			      <option>India</option>
 			      <option>Singapore</option>
@@ -75,4 +75,4 @@
 <script type="text/javascript" src="../js/script.js"></script>
 </body>
 </html>
-<!-- <script type="text/javascript" src="js/script.js"></script> -->
+

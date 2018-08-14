@@ -146,6 +146,6 @@ $('#regfo').click(function(){
            }
 	});
 });
-function country1(){
-	console.log("hhhhhhh");
-}
+$(document).ready( function () {   
+    $('#example').DataTable();
+} );
