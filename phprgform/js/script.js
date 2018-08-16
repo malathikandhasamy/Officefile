@@ -147,5 +147,5 @@ $('#regfo').click(function(){
 	});
 });
 $(document).ready( function () {   
-    $('#example').DataTable();
+//$('#example').DataTable();
 } );

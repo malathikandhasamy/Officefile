@@ -1,3 +1,75 @@
+/*@import url('https://fonts.googleapis.com/css?family=Days+One|Ubuntu:400,500,700');*/
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Days One', sans-serif;
+    margin-top: 0px;
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
 #reg-link{
 	text-align: center;
+}
+header{
+	background-image: url("../image/pexels-photo-1137308.jpeg");
+	background-repeat: no-repeat;
+	background-blend-mode: lighten;
+	background-size: cover;
+	padding-top: 80px;
+    padding-bottom: 170px;
+    font-size: 18px;
+}
+h3{
+	padding left:200px;
+}
+.form-group{
+	width: 300px;
+}
+.login-form{
+	padding-left: 60px;
+    padding-top: 50px;
+    padding-right: 316px;
+    padding-bottom: 50px;
+    background-color: #2c3e50;
+}
+.register{
+	background-color: #2c3e50;
+	padding-top: 80px;
+    padding-bottom: 100px;
+
+}
+.register-list{
+	background-color: #bdc3c7;
+}
+.register-list h3{
+	text-align: center;
+	padding-top: 15px;
+
+}
+.form-list{
+	padding-left: 122px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+span{
+	color: #c0392b;
+}
+.choose-button{
+	background-color: #2c3e50;
+    padding-top: 80px;
+    padding-bottom: 85px;
+    /*padding-bottom: 300px;*/
+}
+.button-image{
+	background-image: url("../image/stock-iphone-business-mobile-38629.jpeg");
+	padding-bottom: 464px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: lighten;
+}
+.selection-button{
+	text-align: center;
+}
+.selection-button h3{
+	padding-bottom: 30px;
 }
