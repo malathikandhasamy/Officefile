@@ -146,6 +146,19 @@ $(document).ready(function(){
 	           }
 	});
 	// $('#example').dataTable();
+	 $("#exit-page").click(function(){
+		//window.location.href = "http://localhost/phprgform/index.php";
+		 $('#example').DataTable();
+
+});
+	 function disableBack()
+
+      {
+       window.history.forward()
+        }
+
+       window.onload = disableBack();
+       window.onpageshow = function(evt) { if (evt.persisted) disableBack() }
 });
 
 		
