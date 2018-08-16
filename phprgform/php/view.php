@@ -1,4 +1,5 @@
 <?php
+session_start();
 $servername = "localhost";
 $username = "root";
 $password = "root";
@@ -79,6 +80,7 @@ while($row = mysqli_fetch_array($result))
 <head>
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="../css/style.css">
 </head>
 <body>
@@ -86,6 +88,13 @@ while($row = mysqli_fetch_array($result))
 		<div class="logout-button">
 		<!-- <button type="button" id="exit-page">Logout</button> -->
 		<form action="../index.php" method="post"><button type="submit" class="btn btn-link navbar-btn navbar-link" id="exit-page">Log off</button></form>
+	</div>
+	<div class="list-icon">
+		<li><i class="fab fa-whatsapp"></i></i></li>
+		<li><i class="fab fa-facebook-f"></i></li>
+		<li><i class="fab fa-twitter"></i></li>
+		<li><i class="fab fa-instagram"></i></li>
+		<li><i class="fab fa-google-plus-g"></i></li>
 	</div>
 	</section>
 </body>

@@ -1,4 +1,5 @@
 <?php
+session_start();
 $servername = "localhost";
 $username = "root";
 $password = "root";
@@ -13,6 +14,8 @@ if ($conn->connect_error) {
 } 
 $uname = $_POST['username'];
 $psw = $_POST['password'];
+$SESSION['username'] = $_POST['username'];
+$SESSION['password'] = $_POST['password'];
 $sql = "SELECT uname,psw FROM register_form WHERE uname = '$uname'AND psw = '$psw'";
 $result = $conn->query($sql);
 if (!$result) {
