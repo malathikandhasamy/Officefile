@@ -49,7 +49,7 @@ if (!$result) {
 // }  
 $result = mysqli_query($conn , $sql);
 echo '
-<table id="example" class="table table-stripped" style="width:100%">
+<table id="example" style="width:100%">
 <thead>
 <tr>
 	<th>Name</th>
@@ -75,3 +75,15 @@ while($row = mysqli_fetch_array($result))
  echo'</table>';
 
 ?>	
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://cdn.datatables.net/1.10.12/css/dataTables.bootstrap.min.css" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<script src="https://cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/1.10.12/js/dataTables.bootstrap.min.js"></script>
+<script type="text/javascript" src="../js/script.js"></script>
+</head>
+<body>
+</body>
+</html>

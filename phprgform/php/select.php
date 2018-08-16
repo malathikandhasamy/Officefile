@@ -64,8 +64,7 @@
     	</div>    	
     </div>
 </section>
-    <div class="viewdatatable">
-    </div>
+
     <section class="button-image">
         <div class="container">
         <div class="row">
