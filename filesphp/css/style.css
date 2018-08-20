@@ -1,0 +1,16 @@
+.button-list{
+	padding-top: 150px;
+}
+header{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+header label{
+	padding-right: 20px;
+}
+.content-detail label{
+	padding-right: 47px;
+}
+select{
+	padding-right: 50px;
+}
